@@ -1,0 +1,119 @@
+fieldset {
+  appearance: none;
+}
+
+input[type='submit'] {
+  appearance: none;
+  cursor: pointer;
+  border: 0px;
+}
+
+input:focus {
+  outline: 0;
+}
+
+.main-search {
+  position: relative;
+  margin: 0 15px;
+  height: 48px;
+  border: 1px solid rgb(95, 0, 128);
+  border-radius: 50px;
+  background-color: #fff;
+}
+
+.main-search .search-word {
+  position: absolute;
+  top: 0;
+  right: 110px;
+  bottom: 0;
+  left: 48px;
+}
+
+.search-icon {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -27px;
+  text-indent: -9999px;
+}
+
+.main-search input[type='text'] {
+  display: block;
+  width: 100%;
+  font-size: 0.813rem;
+  color: #cbcbcb;
+  line-height: 44px;
+  border: 0;
+}
+
+.main-search .btn-search {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -1px;
+  width: 110px;
+  font-size: 0.813rem;
+  color: #fff;
+  line-height: 48px;
+  border-radius: 50px;
+  background-color: rgb(95, 0, 128);
+  height: 100%;
+}
+
+@media screen and (min-width: 769px) {
+  .main-search {
+    margin: 0 auto;
+    height: 50px;
+    width: 738px;
+    border: 2px solid rgb(95, 0, 128);
+    border-radius: 80px;
+    overflow: hidden;
+  }
+
+  .search-word {
+    right: 238px;
+    left: 85px;
+  }
+
+  .search-icon {
+    left: -20px;
+    margin-top: -15.5px;
+    background-image: url(../assets/search.svg);
+    background-size: cover;
+    width: 30px;
+    height: 31px;
+  }
+
+  .main-search input[type='text'] {
+    height: 45px;
+    width: 415px;
+    margin: 0 30px;
+    padding: 0;
+    font-size: 1.1rem;
+    line-height: 50px;
+    color: #000;
+  }
+
+  .main-search input[type='text']:placeholder-shown {
+    line-height: 50px;
+    color: #cbcbcb;
+    opacity: 1;
+  }
+
+  .main-search .btn-search {
+    width: 180px;
+    font-size: 1.313rem;
+    line-height: 42px;
+    border-radius: 80px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .search-icon {
+    margin-top: -10px;
+    background-image: url(../assets/search.svg);
+    background-size: cover;
+    width: 19px;
+    height: 20px;
+  }
+}

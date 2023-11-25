@@ -1,0 +1,18 @@
+/* 전체 가로 사이즈와 가운데 정렬 */
+#login_box{width: 429px; margin: 0 auto;}
+
+/* 로그인 제목줄 글씨 설정과 아래쪽 경계선 */
+#login_title{margin: 50px 0 0 0; padding-bottom: 5px; border-bottom: solid 2px #ffbe10; font-size: 20px; font-weight: bold;}
+
+/* 로그인 제목줄과 인풋영역 사이의 간격 */
+#login_form{margin-top: 20px;}
+
+/* input요소들 사이 간격 */
+#login_form li{margin-top: 10px;}
+
+/* input요소 사이즈 */
+#login_form input{width: 100%; height: 47px;}
+
+/* 로그인 버튼  */
+#login_form #login_btn {margin-top: 15px; margin-bottom: 50px;}
+#login_form #login_btn input{ width: 100%; height: 60px;}

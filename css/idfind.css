@@ -1,0 +1,106 @@
+html,
+body {
+  height: 100%;
+  background-color: #f5f5f5;
+}
+
+body, div, h1, h4, form, fieldset, button, input {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: block;
+  width: 100%;
+  min-width: 320px;
+  height: 100%;
+  padding: 50px 0;
+}
+
+#headName {
+  text-align: center;
+}
+
+#page_title {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+#content {
+  display: block;
+  position: relative;
+  max-width: 580px;
+  min-width: 520px;
+  margin: 40px auto;
+  padding: 58px 69px 139px;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.find_title {
+  display: block;
+  font-size: 12px;
+  color: #000;
+  margin-top: 40px;
+}
+
+.ps_box {
+  display: block;
+  width: 100%;
+  height: 48px;
+}
+
+.ps_box input {
+  outline: 0;
+}
+
+label, input {
+  cursor: pointer;
+}
+
+.int {
+  width: 100%;
+  height: 48px;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  border-color: #e5e5e5;
+  padding: 11px 70px 8px 0;
+  color: #252525;
+  border-radius: 0;
+  box-sizing: border-box;
+  caret-color: #191919;
+  background-color: #f5f5f5;
+}
+
+.int:focus {
+  border-color: #191919;
+}
+
+.btn_area {
+  margin-top: 40px;
+  position: absolute;
+  right: 69px;
+  bottom: 49px;
+  left: 69px;
+}
+
+.btn_type {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  #content {
+    max-width: 100%;
+    min-width: auto;
+    margin: 40px 0 0;
+    padding: 0 40px 139px;
+    border: 0;
+  }
+}

@@ -1,0 +1,16 @@
+/* 메인 콘텐츠 영역 가로사이즈와 가운데 정렬 */
+#main_content{width: 1000px; height: 300px; margin: 0 auto;position: relative;}
+
+/* 메인 이미지 */
+#main_img_bar{height: 230px; background-color: #2092aa; text-align: center;}
+#main_img_bar img{margin-top: 30px;}
+
+/* 최신 게시글 */
+#latest{position: absolute; top: 30px; left: 50px;}
+#latest h4{width: 500px; font-size: 16px; padding-bottom: 5px; border-bottom: solid 1px #dddddd;}
+#latest ul{margin-top: 20px;}
+
+/* 포인트 랭킹 */
+#point_rank{position: absolute; top: 30px; left: 590px;}
+#point_rank h4{width: 350px; font-size: 16px; padding-bottom: 5px; border-bottom: solid 1px #dddddd;}
+#point_rank ul{margin-top: 20px;}

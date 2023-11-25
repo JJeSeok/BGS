@@ -1,0 +1,24 @@
+.btn {
+    display: block;
+}
+
+.image_swiper div{
+    display: inline-block;
+    width: 105px;
+    height: 105px;
+    z-index: 1;
+  }
+  .image_swiper div input[type=file]{
+    display: none;
+  }
+  .image_swiper div label{
+    display: inline-block;
+    width: 105px;
+    height: 105px;
+    background: url("../images/icon/calendar_1.png") #9fd1ff no-repeat center;
+    z-index: 0;
+  }
+  .image_swiper div label:hover{
+    background: url("../images/icon/calendar_1.png") #0084ff no-repeat center;
+  }
+  

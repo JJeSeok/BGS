@@ -1,0 +1,39 @@
+/* 메인 콘텐츠 영역의 가로사이즈 및 가운데 정렬 */
+#main_content{width: 1000px; height: 400px; margin: 0 auto;}
+
+/* 가입양식 폼의 사이즈 지정 */
+#join_box{width: 600px; margin: 0 auto;}
+
+/* 회원가입 제목의 아래쪽 경계선 */
+#join_box h2{border-bottom: solid 1px #dddddd; padding-top: 50px;}
+
+/* 라벨 영역 */
+#join_box .col1{float: left; width: 110px; margin-top: 4px;}
+
+/* input상자 영역 */
+#join_box .col2{float: left; width: 400px;}
+
+/* float 영향 제거 */
+.clear{clear: both;}
+
+/* id 입력 줄에만 있는 중복 확인 버튼 */
+#join_box .col3{float: left;}
+
+/* 모든 input요소의 사이즈 */
+#join_box .form input{width: 390px; height: 22px; }
+
+/* 각 항목 줄별 높이 */
+#join_box .form{height: 38px;}
+
+/* 맨 윗줄이 제목과 너무 붙어있어서  */
+#join_box .id{margin-top: 20px;}
+
+/* 이메일 칸의 input 요소 사이즈 재지정*/
+#join_box .email input[name=email1]{width: 100px;}
+#join_box .email input[name=email2]{width: 275px;}
+
+/* 서밋버튼영역의 hr 용도 */
+#join_box .bottom_line{margin-top: 10px; border-bottom: solid 1px #cccccc;}
+
+/* 버튼 위치 오른쪽 정렬 */
+#join_box .buttons {text-align: right; margin: 20px 100px 0 0;}
